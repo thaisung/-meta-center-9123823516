@@ -15,6 +15,14 @@ const router = createRouter({
           path: "/",
           component: () => import("../views/MailView.vue"),
         },
+        {
+          path: "/xmdt",
+          component: () => import("../views/XmdtView.vue"),
+        },
+        {
+          path: "/api-document",
+          component: () => import("../views/ApiView.vue"),
+        },
       ]
     },
   ],
